@@ -76,26 +76,37 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  body, html {
+    font-size: 15px;
+  }
   .overlay {
     padding: 0.5rem 0.1rem;
   }
   .hero {
-    padding: 1.2rem 0.2rem;
+    padding: 1rem 0.2rem;
     border-radius: 6px;
   }
   h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   h2 {
     font-size: 1rem;
   }
   .about, .contact {
-    margin-top: 1rem;
-    padding: 0 0.2rem;
+    margin-top: 0.7rem;
+    padding: 0 0.1rem;
+  }
+  section, .about, .contact, .hero {
+    max-width: 98vw;
+    box-sizing: border-box;
   }
   footer {
-    margin-top: 2rem;
-    font-size: 0.8rem;
+    margin-top: 1.2rem;
+    font-size: 0.75rem;
+    padding: 0 0.2rem;
+  }
+  p, a {
+    word-break: break-word;
   }
 }
 
@@ -104,9 +115,12 @@ a:hover {
     padding: 0.2rem 0.01rem;
   }
   .hero {
-    padding: 0.7rem 0.05rem;
+    padding: 0.5rem 0.01rem;
   }
   h1 {
     font-size: 1rem;
+  }
+  h2 {
+    font-size: 0.9rem;
   }
 }
