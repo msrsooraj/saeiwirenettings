@@ -160,8 +160,7 @@ main {
   border-radius: 1.5rem;
   box-shadow: 0 4px 24px rgba(20,20,30,0.07);
   padding: 2.5rem 2rem 2rem 2rem;
-  margin-bottom: 2rem;
-  flex: 1 1 340px;
+  margin-bottom: 1rem;
   min-width: 290px;
   max-width: 480px;
   display: flex;
@@ -343,4 +342,18 @@ address a:hover {
   .about-hero, .contact.card {
     padding: 1.2rem 0.7rem 1rem 0.7rem;
   }
+}
+
+.contact.card {
+  max-width: 600px;
+  padding: 1rem 1.2rem;
+}
+.contact.card .directions-btn {
+  margin-top: 0.7rem;
+}
+.contact.card h2 {
+  margin-bottom: 0.4rem;
+}
+.contact.card address {
+  margin-bottom: 0.2rem;
 } 
